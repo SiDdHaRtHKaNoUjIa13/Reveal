@@ -1,0 +1,147 @@
+.video{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    position: relative;
+    padding-top: 8rem;
+    overflow: hidden;
+    /* border-top: 6px solid #333; */
+    color: #777;
+    /* border-bottom: 6px solid #333; */
+    padding-bottom: 8rem;
+    /* height: 4rem;
+    width: 4rem; */
+
+}
+
+.grid-btn{
+    display: flex;
+    flex-direction: column;
+     display: block; 
+     justify-content: space-between;
+     text-align: center;
+     padding-top: 5rem;
+    
+}
+.btn-play{
+    width: 14rem;
+    height: 2rem;
+    background-color: rgb(155, 229, 155);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    /* padding-left: 2rem; */
+    margin-right: 3rem;
+    
+}
+
+.btn-pause{
+    width: 14rem;
+    height: 2rem;
+    background-color: rgb(243, 108, 108);
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+.xyz{
+    border: 2px solid grey;
+}
+
+@media(max-width:992px){
+    .grid-btn{
+        display: none;
+    }
+   
+    
+
+}
+@media (max-width:820px) {
+    .video .xyz{
+    width:650px ;
+    height: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .video .xyz{
+        width:550px ;
+        height: 300px;
+        }
+    
+}
+@media(max-width:576px){
+    .video .xyz{
+        width: 500px;
+        height: 300px;
+
+
+
+    }
+}
+@media(max-width:526px){
+    .video .xyz{
+        width: 450px;
+        height: 300px;
+
+
+
+    }
+}
+@media(max-width:480px){
+    .video .xyz{
+        width: 400px;
+        height: 300px;
+
+
+
+    }
+}
+@media(max-width:420px){
+    .video .xyz{
+        width: 350px;
+        height: 250px;
+
+
+
+    }
+}
+@media(max-width:390px){
+    .video .xyz{
+        width: 350px;
+        height: 250px;
+        /* padding-top: 8rem;/ */
+
+
+
+    }
+    
+    .btn-pause{
+        width: 5rem;
+        /* margin-top: 3rem; */
+    }
+    .btn-play{
+        width: 5rem;
+    }
+}
+@media(max-width:365px){
+    .video .xyz {
+        width: 300px;
+        height: 230px;
+    }
+}
+@media(max-width:320px){
+    .video .xyz {
+        width: 280px;
+        height: 230px;
+    }
+}
+@media(max-width:290px){
+    .video .xyz {
+        width: 260px;
+        height: 230px;
+    }
+}
