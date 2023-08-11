@@ -4,7 +4,7 @@ import Zoom from 'react-reveal/Zoom';
 
 const Feeling = () =>{
     return(
-        <Zoom zoom duration={1500} distance ="10%">
+        <Zoom zoom duration={1500} distance ="11%">
         <section className="feeling-section py ">
             <div className="feeling-bg ">
                 <img src="./fellings.png " alt="feelings" />
