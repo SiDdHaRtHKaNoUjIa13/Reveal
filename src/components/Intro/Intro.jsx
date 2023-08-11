@@ -11,7 +11,7 @@ const Intro = () => {
                     <div className="w-5 w-xl-100 ">
                         
                         <Fade left>
-                            <div className="profile-text aos-init aos-animate" data-aos="fade-right">
+                            <div className="profile-text ">
                                 <h1>Profile</h1>
                                 <span>Groom your way in.</span>
                             </div>
@@ -19,7 +19,7 @@ const Intro = () => {
                     </div>
                     <div className="w-5 w-xl-100 ">
                         <Fade right>
-                            <div className="profile-img aos-init aos-animate" data-aos="fade-left">
+                            <div className="profile-img ">
                                 <img src="../profile.png " alt="profile.png " />
                             </div>
                         </Fade>

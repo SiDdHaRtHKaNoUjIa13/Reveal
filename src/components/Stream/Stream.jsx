@@ -8,14 +8,14 @@ const Stream =()=>{
                 <div className="d-flex align">
                     <div className="w-6 w-xl-100">
                     <Fade left>
-                        <div className="stream-img aos-init aos-animate" data-aos="fade-right">
+                        <div className="stream-img ">
                             <img src="../stream.png " alt="stream.png" />
                         </div>
                         </Fade>
                     </div>
                     <div className="w-4 w-xl-100">
                     <Fade right>
-                        <div className="stream-text aos-init aos-animate" data-aos="fade-left">
+                        <div className="stream-text ">
                             <h2>Stream</h2>
                             <p>your content seamlessly</p>
                         </div>

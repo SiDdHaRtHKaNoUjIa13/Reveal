@@ -9,14 +9,14 @@ const SwiftChat =()=>{
                 <div className="d-flex align">
                     <div className="w-6 w-xl-100 ">
                     <Fade left>
-                        <div className="swiftchat-inn aos-init aos-animate" data-aos="fade-right">
+                        <div className="swiftchat-inn ">
                             <img src="../swiftchat.png " alt="swiftchat.png" />
                         </div>
                     </Fade>
                     </div>
                     <div className="w-4 w-xl-100">
                     <Fade right>
-                        <div className="swiftchat-text aos-init aos-animate" data-aos="fade-left">
+                        <div className="swiftchat-text ">
                             <h2>Swiftchat <span>Beta</span></h2>
                             <p>Text your feelings, not just words!</p>
                             <span><a href="swiftchat.html " class="feel-btn ">Try Now</a></span>

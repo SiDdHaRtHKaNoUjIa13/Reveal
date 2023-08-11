@@ -16,7 +16,7 @@ const Clips = () => {
                         </div>
                     </Fade>
                     
-                        <div class="clips-text aos-init" data-aos="fade-left">
+                        <div class="clips-text " >
                             <Fade right><h2>Clips <span>Beta</span></h2></Fade>
                             <Fade right><p>Quick entertainments</p></Fade>
                         </div>
